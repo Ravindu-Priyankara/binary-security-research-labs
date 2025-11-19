@@ -1,0 +1,1 @@
+Allocate an array using int ** inside a function.

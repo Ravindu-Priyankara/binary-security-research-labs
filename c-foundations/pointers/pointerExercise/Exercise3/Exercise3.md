@@ -1,0 +1,1 @@
+Move a pointer across an array using pointer arithmetic and print the addresses.
