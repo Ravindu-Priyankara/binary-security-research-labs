@@ -1,1 +1,0 @@
-Write a small program that causes a segmentation fault using pointers, then debug it with GDB.

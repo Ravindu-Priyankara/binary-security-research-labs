@@ -8,6 +8,6 @@ int **pp = &p;
 Print:
 
 - value
-- `*p`
-- `**pp`
+    - `*p`
+    - `**pp`
 - addresses of all three
