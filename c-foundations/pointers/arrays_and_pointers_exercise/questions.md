@@ -170,7 +170,7 @@ You’ll see weird values → this teaches how memory corruption happens.
 
 ---
 
-### **11️⃣ Pointer to pointer practice**
+### **1️⃣1️⃣ Pointer to pointer practice**
 
 Given:
 
@@ -190,7 +190,7 @@ Print 5 things:
 
 ---
 
-### **12️⃣ GDB challenge**
+### **1️⃣2️⃣ GDB challenge**
 
 Write a program with array:
 
@@ -207,18 +207,3 @@ Run in gdb:
 * print `p arr`
 * print memory around arr (`x/8wx &arr`)
 
-This builds real exploit dev muscle.
-
----
-
-# 🔥 If you want bro…
-
-I can also generate:
-
-* solutions
-* memory diagrams
-* GitHub-ready notes
-* more exercises
-* GDB versions of each exercise
-
-Just tell me.
