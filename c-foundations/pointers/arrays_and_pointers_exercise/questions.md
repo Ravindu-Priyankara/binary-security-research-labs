@@ -204,6 +204,5 @@ Run in gdb:
 * print `arr`
 * print `arr[2]`
 * print `*(arr+2)`
-* print `p arr`
 * print memory around arr (`x/8wx &arr`)
 
