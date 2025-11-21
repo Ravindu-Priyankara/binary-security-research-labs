@@ -41,7 +41,7 @@ value        // 10
 Using pointer:
 
 ```c
-    *p           // 10
+*p           // 10
 ```
 Using pointer → pointer:
 
