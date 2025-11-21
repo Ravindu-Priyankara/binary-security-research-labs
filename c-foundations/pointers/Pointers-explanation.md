@@ -17,8 +17,8 @@ A pointer does *not* store a value — it stores a *location*.
 ## 2. Declaring a Pointer
 
 ```c
-    <data_type> *<pointer_name>;
-    int *marks;
+<data_type> *<pointer_name>;
+int *marks;
 ```
 * does NOT mean multiplication here.
 It tells the compiler: “this variable stores an address of an int.”
@@ -27,16 +27,16 @@ It tells the compiler: “this variable stores an address of an int.”
 ### Method 1 — Declare first, assign later
 
 ```c
-    int key = 1212;        // value stored normally
-    int *keyPointer;       // pointer declaration
-    keyPointer = &key;     // & gives the memory address of 'key'
+int key = 1212;        // value stored normally
+int *keyPointer;       // pointer declaration
+keyPointer = &key;     // & gives the memory address of 'key'
 ```
 
 ### Method 2 — Declare + assign in one line
 
 ```c
-    int key = 1212;
-    int *keyPointer = &key;
+int key = 1212;
+int *keyPointer = &key;
 ```
 - `&` → address-of operator
 - `*` → dereference operator
@@ -44,17 +44,17 @@ It tells the compiler: “this variable stores an address of an int.”
 ## 4. Display Value Through a Pointer (Dereferencing)
 
 ```c
-    int number = 1234;
-    int *numberAddress = &number;
+int number = 1234;
+int *numberAddress = &number;
 
-    printf("%d\n", *numberAddress); // prints 1234
+printf("%d\n", *numberAddress); // prints 1234
 ```
 Dereferencing `(*pointer)` means:
 - Go to the memory address stored in the pointer and read the value there.
 
 ## 5. Display the Variable’s Address
 ```c
-    printf("%p\n", numberAddress);
+printf("%p\n", numberAddress);
 ```
 This prints the address where `number` lives on the stack.
 
@@ -68,7 +68,7 @@ Example (will vary):
 Pointers are variables too — so they also live somewhere in memory.
 
 ```c
-    printf("%p\n", &numberAddress);
+printf("%p\n", &numberAddress);
 ```
 
 This shows where the pointer itself is stored.
@@ -127,8 +127,8 @@ If you don’t understand pointers deeply, exploit development becomes impossibl
 ### ❌ Using an uninitialized pointer
 
 ```c
-    int *p;
-    printf("%d", *p); // undefined behavior
+int *p;
+printf("%d", *p); // undefined behavior
 ```
 This can cause:
 - segmentation fault
