@@ -206,7 +206,7 @@ My personal study notes on:
 If you want to collaborate, hire me, or discuss exploit development:
 
 **Email:** [h.h.a.r.p.premachandra@gmail.com](mailto:h.h.a.r.p.premachandra@gmail.com)\
-**GitHub:** [github.com/Ravindu](https://github.com/Ravindu-Priyankara)
+**GitHub:** [github.com/Ravindu-Priyankara](https://github.com/Ravindu-Priyankara)
 
 
 ---
