@@ -4,19 +4,22 @@
 struct A{
     char a; //1 byte
     char b; // 1 byte
-    int c; //4 byte
+    int c; //4 byte 
+    /*1 cpu cycle*/
 };
 
 struct B{
     char a; 
     int b; 
-    char c; 
+    char c;  
+    /*This takes extra cpu cycle (2 cycles)*/
 };
 
 struct C{
     int a; 
     char b; 
     char c; 
+    /*1 cpu cycle*/
 };
 
 
