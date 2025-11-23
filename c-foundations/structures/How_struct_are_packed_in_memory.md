@@ -1,4 +1,4 @@
-# 🧠 Structure Packing and Memory Alignment
+# Structure Packing and Memory Alignment
 
 Understanding **Structure Packing** and **Data Alignment** is fundamental for low-level development and crucial for precisely calculating memory offsets during **exploit development**.
 
@@ -8,7 +8,7 @@ The consequence is that the total size of a structure is often **greater** than 
 
 -----
 
-## 🔬 Default Alignment in Practice
+## Default Alignment in Practice
 
 On modern systems (e.g., 64-bit), the default alignment requirement for a structure is typically the **size of its largest member**.
 
@@ -54,7 +54,7 @@ The total size is 16 bytes, not the $4+1+8 = 13$ bytes, due to the 3 bytes of pa
 
 -----
 
-## 🛠️ Disabling Padding: Manual Packing
+## Disabling Padding: Manual Packing
 
 In exploit development, network programming, or hardware interfacing, we sometimes need to eliminate padding to ensure the structure size is predictable and minimal. This is achieved using **compiler-specific directives** to force a smaller alignment requirement (often 1 byte).
 
