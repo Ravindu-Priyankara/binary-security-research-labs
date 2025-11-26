@@ -55,3 +55,14 @@ dkms.conf
 *.dwo
 practice/
 strategy/
+
+c-foundations/stack
+
+#challenges
+mini-exploits/stage.md 
+
+#mini-exploits/challenge_01/
+mini-exploits/challenge_02/
+mini-exploits/challenge_03/
+mini-exploits/challenge_04/
+mini-exploits/challenge_05/
