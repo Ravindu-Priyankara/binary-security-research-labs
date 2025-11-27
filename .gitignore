@@ -51,6 +51,7 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
+#binaries and other stuffs
 *.o
 *.out
 *.bin
@@ -74,7 +75,6 @@ c-foundations/stack
 #challenges
 mini-exploits/stage.md 
 
-#mini-exploits/challenge_01/
 mini-exploits/challenge_02/
 mini-exploits/challenge_03/
 mini-exploits/challenge_04/
