@@ -61,6 +61,8 @@ core.*
 *.swo
 *.txt~
 *.gdb_history
+.DS_Store
+
 
 # debug information files
 *.dwo
