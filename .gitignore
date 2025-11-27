@@ -51,6 +51,17 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
+*.o
+*.out
+*.bin
+a.out
+core
+core.*
+*.swp
+*.swo
+*.txt~
+*.gdb_history
+
 # debug information files
 *.dwo
 practice/
