@@ -1,0 +1,93 @@
+shell clear
+disass _start
+i func
+disass my_func
+b _start
+lay asm
+r
+si
+si
+si
+i r rdi
+si
+i r dil
+i r rdi
+si
+si
+i r rsi
+si
+si
+si
+exit
+b _start
+lay asm
+r
+si
+si
+i r rdi
+si
+si
+si
+si
+si
+i r rdi
+i r rsi
+si
+si
+si
+i r rdi
+i r rbp
+si
+si
+si
+si
+i r rdi
+i r rsi
+exit
+disass my_func
+b *0x401032
+lay asm
+r
+si
+i r rax
+si
+i r rax
+si
+si
+si
+i r rax
+exit
+i func
+disass my_func
+b *0x40108b
+lay asm
+r
+si
+i r rax
+si
+si
+si
+i r ah
+si
+i r al
+p/c $al
+si
+p/c $ah
+si
+p/c $ah
+si
+si
+si
+x/bx 0x402005
+si
+si
+si
+si
+si
+si
+si
+si
+si
+si
+si
+exit
