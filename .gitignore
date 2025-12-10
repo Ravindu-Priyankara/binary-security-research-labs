@@ -75,9 +75,9 @@ c-foundations/stack
 #challenges
 mini-exploits/stage.md 
 
-mini-exploits/challenge_02/
-mini-exploits/challenge_03/
-mini-exploits/challenge_04/
-mini-exploits/challenge_05/
+mini-exploits/lab_02/
+mini-exploits/lab_03/
+mini-exploits/lab_04/
+mini-exploits/lab_05/
 
 /reverse-engineering/binary_analysis_and_exploitation_lab_02/
