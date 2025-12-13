@@ -14,11 +14,11 @@ _start:
     ; as "dlr\n" (4 bytes) and "ow olleh" (8 bytes).
 
     ; Push the last 4 bytes: 0x0a646c72 = "\n"+"d"+"l"+"r" (in little-endian)
-	push 0x0a646c72				; Stack: [...\nldr] (Correction: should be "\ndlr")
+	push 0x0a646c72				; Stack: [...\ndlr]
 
 	; Load the first 8 bytes: 0x6f77206f6c6c6568 = "o"+"w"+" "+"o"+"l"+"l"+"e"+"h"
 	mov rbx, 0x6f77206f6c6c6568	; RBX = "ow olleh" (8 bytes)
-	push rbx					; Stack: [...\nldr][ow olleh] -> "hello world\n"
+	push rbx					; Stack: [...\ndlr][ow olleh] -> "hello world\n"
 
 	; Set the starting address of the string buffer
 	mov rsi, rsp				; Set RSI to RSP (RSI = address of the string on the stack)
