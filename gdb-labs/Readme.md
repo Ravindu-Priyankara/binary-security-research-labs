@@ -23,6 +23,11 @@ gdb-labs/
 │   ├── lab_03_Patch_Control_Flow_(Advanced)
 │   ├── lab_04_Memory_Analysis_&_Dumping
 │   └── lab_05_Dynamic_Memory_&_Patching
+├── lab_04_Stack_canary_bypass
+|   ├── lab_01_Canary_Bypass_via_Flag_Manipulation(GDB)
+|   ├── lab_02_Stack_Canary_Identification
+|   ├── lab_03_Format_String_Canary_Leak
+|   └── lab_04_Canary-Preserving_Overflow
 ```
 
 ---
@@ -35,6 +40,10 @@ gdb-labs/
 * Runtime patching using GDB
 * Instruction and data manipulation
 * Understanding compiler behavior and optimizations (PIE, ASLR)
+* Understanding Stack Canary
+* Canary bypassing techniques
+* Flags Manipulation
+* Understanding format string vulnerability
 
 ---
 
@@ -66,6 +75,7 @@ engineering workflows**.
 * objdump
 * diff
 * cmp
+* xxd 
 
 ---
 
