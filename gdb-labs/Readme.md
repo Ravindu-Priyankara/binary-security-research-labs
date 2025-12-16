@@ -1,8 +1,10 @@
-# GDB Labs — Runtime Debugging & Control Flow
+# GDB Labs
 
-This repository contains hands-on **GDB practice labs** focused on runtime analysis, PIE debugging, memory inspection, and control-flow manipulation.
+This repository contains hands-on binary debugging labs completed using
+**GDB, objdump, and manual analysis** on ELF binaries.
 
-The labs are designed as **small, focused exercises** to build real debugger intuition rather than academic reversing theory.
+The focus is on **practical understanding and pattern recognition**, not
+academic-style reports or step-by-step tutorials.
 
 ---
 
@@ -20,87 +22,57 @@ gdb-labs/
 │   ├── lab_02_Patch_Instructions_(Code Patching)
 │   ├── lab_03_Patch_Control_Flow_(Advanced)
 │   ├── lab_04_Memory_Analysis_&_Dumping
-│   ├── lab_05_Dynamic_Memory_&_Patching
-│   └── README.md
-├── lab_04_Stack_canary_bypass
+│   └── lab_05_Dynamic_Memory_&_Patching
 ```
 
 ---
 
-## Lab Groups
+## Skills Trained
 
-### 01 — Bypassing a Conditional Check
-
-Introductory labs focused on **logic bypassing** using GDB.
-
-**Focus:**
-
-* Conditional jumps
-* Runtime value modification
-* Basic control-flow influence
+* Control flow analysis (`cmp` / `jcc`)
+* Function discovery in stripped binaries
+* String-based logic reversal
+* Runtime patching using GDB
+* Instruction and data manipulation
+* Understanding compiler behavior and optimizations (PIE, ASLR)
 
 ---
 
-### 02 — GDB + PIE Debugging Practice
+## Lab Structure
 
-Labs focused on **Position Independent Executables (PIE)** and runtime address resolution.
+Each lab folder contains:
 
-**Structure:**
+* Minimal technical notes (key observations only)
+* One proof screenshot (critical breakpoint or patch)
+* Source code or binary used
 
-```
-GDB + PIE Debugging Practice Lab_02/
-├── lab_01
-├── lab_02
-└── lab_03
-```
-
-**Focus:**
-
-* PIE base calculation
-* Runtime address rebasing
-* Breakpoints under ASLR
-* Hidden function discovery
+Documentation is intentionally minimal to reflect **real-world reverse
+engineering workflows**.
 
 ---
 
-### 03 — Memory Patching (GDB)
+## Tools Used
 
-Labs centered on **direct memory and instruction patching**.
-
-**Contained Labs:**
-
-* Patch variables at runtime (data patching)
-* Patch instructions (code patching)
-* Patch control flow (advanced)
-* Memory analysis and dumping
-* Dynamic memory & patching
-
-**Focus:**
-
-* Data vs instruction patching
-* Stack and global memory
-* Instruction pointer manipulation
-* Runtime memory validation
+* GDB
+* objdump
+* readelf
+* gcc (various optimization levels)
+* r2
+* checksec
+* ltrace
+* strace
+* nm
+* strings
+* objdump
+* diff
+* cmp
 
 ---
 
-## Lab Conventions
+## Goal
 
-Each lab typically contains:
+Build strong debugging fundamentals as a foundation for:
 
-* Minimal `notes.md`
-* One or more proof screenshots or logs
-* Source code or compiled binary
-
-The emphasis is on **clarity, correctness, and execution insight**.
-
----
-
-## Scope
-
-These labs are intended for:
-
-* Reversing practice
-* Exploit development foundations
-* Debugger-driven analysis
-* Safe experimentation in local or VM environments
+* Exploit development
+* CTF-style challenges
+* Low-level security research
