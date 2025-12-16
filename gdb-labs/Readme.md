@@ -40,10 +40,10 @@ gdb-labs/
 * Runtime patching using GDB
 * Instruction and data manipulation
 * Understanding compiler behavior and optimizations (PIE, ASLR)
-* Understanding Stack Canary
-* Canary bypassing techniques
-* Flags Manipulation
-* Understanding format string vulnerability
+* Implementation and mechanics of Stack Canaries (Security Cookies)
+* Techniques for leaking, bruteforcing, and preserving stack cookies
+* Logical bypasses via CPU Flag Manipulation (EFLAGS/RFLAGS)
+* Identifying and leveraging Format String primitives for memory disclosure
 
 ---
 
