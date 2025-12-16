@@ -22,6 +22,7 @@ gdb-labs/
 │   ├── lab_04_Memory_Analysis_&_Dumping
 │   ├── lab_05_Dynamic_Memory_&_Patching
 │   └── README.md
+├── lab_04_Stack_canary_bypass
 ```
 
 ---
