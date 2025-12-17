@@ -13,6 +13,7 @@ lab_01_Canary_Bypass_via_Flag_Manipulation_(GDB)
 lab_02_Stack_Canary_Identification
 lab_03_Format_String_Canary_Leak
 lab_04_Canary-Preserving_Overflow
+lab_05_Format_String_Exploit
 ```
 
 Each lab targets a distinct aspect of stack canary behavior.
@@ -64,6 +65,20 @@ Demonstrates exploiting a vulnerable program **while preserving the canary**.
 * Payload construction with canary preservation
 * Stack frame layout
 * Control-flow hijacking without triggering protection
+
+---
+
+## Lab 05 — Format String → Canary Leak → Preserve → ret2win (No GDB)
+
+This lab combines multiple vulnerability classes to demonstrate a realistic stack canary bypass without debugger-based manipulation.
+Unlike earlier labs, this exploit is performed entirely through program input, simulating a real attack scenario.
+
+### Focus
+
+* Multi-stage exploitation in a single process
+* Chaining information disclosure with memory corruption
+* Stack canary bypass through leakage and preservation
+* Control-flow hijacking without debugger assistance
 
 ---
 
