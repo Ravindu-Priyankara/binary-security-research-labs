@@ -27,7 +27,8 @@ gdb-labs/
 │   ├── lab_01_Canary_Bypass_via_Flag_Manipulation(GDB)
 │   ├── lab_02_Stack_Canary_Identification
 │   ├── lab_03_Format_String_Canary_Leak
-│   └── lab_04_Canary-Preserving_Overflow
+│   ├── lab_04_Canary-Preserving_Overflow
+│   └── lab_05_Format_String_exploit
 ```
 
 ---
@@ -76,6 +77,7 @@ engineering workflows**.
 * diff
 * cmp
 * xxd 
+* pwntools
 
 ---
 
