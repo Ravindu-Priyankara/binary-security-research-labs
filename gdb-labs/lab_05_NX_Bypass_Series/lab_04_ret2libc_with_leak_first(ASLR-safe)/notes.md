@@ -102,3 +102,5 @@ padding
 ```
 leak → calculate → execute
 ```
+
+<img src="./assets/proof.png" width="500">
