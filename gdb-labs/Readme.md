@@ -29,6 +29,11 @@ gdb-labs/
 │   ├── lab_03_Format_String_Canary_Leak
 │   ├── lab_04_Canary-Preserving_Overflow
 │   └── lab_05_Format_String_exploit
+├── lab_05_NX_Bypass_Series
+│   ├── lab_01_RIP_Control_Proof_(64-bit)
+│   ├── lab_02_ret2win(NX enabled)
+│   ├── lab_03_NX_Bypass_via_ret2libc(system)
+│   └── lab_04_ret2libc_with_leak_first(ASLR-safe)
 ```
 
 ---
