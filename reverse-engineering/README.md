@@ -12,7 +12,7 @@ These labs are built to train **control flow reasoning, compiler awareness, and 
 ## **Repository Structure**
 
 ```
-re-labs/
+reversing-labs/
 ├── lab01_basic_reversing
 │   └── lab01_hello_world_analysis
 │
@@ -21,20 +21,35 @@ re-labs/
 │   ├── lab02_2_optimized_conditions
 │   ├── lab02_3_pie_runtime_control
 │   └── lab02_4_obfuscated_control_flow
+│ 
+├── lab_03_Anti_Debugging_labs
+│   ├── lab_01_Ptrace_Check(Anti-Debugging)
+│   ├── lab_02_TracerPid_check
+│   ├── lab_03_Timming-Based_Anti-Debugging
+│   ├── lab_04_INT3_(SIGTRAP)_Anti-Debugging_Check
+│   ├── lab_05_Syscall_Breakpoint_Detection_Check
+│   ├── lab_06_Hardware_Breakpoint_Detection(DR0-DR7)
+│   └── lab_07_RDTSC_Timming_Detection
+│ 
 ```
 
 ---
 
 ## **Skills Trained**
 
-* Control flow analysis (`cmp`, `test`, `jcc`, `cmov`)
-* Register and flag reasoning
-* PIE & ASLR awareness
-* Runtime vs static analysis
-* Manual patching and verification
-* Compiler behavior and optimizations
-* Security mechanism understanding (NX, Canary)
-* Low-level execution thinking
+* Control-flow reasoning under real execution (`cmp`, `test`, `jcc`, `cmov`)
+* Register- and flag-driven decision analysis
+* PIE & ASLR runtime awareness
+* Distinguishing static assumptions from runtime truth
+* Manual runtime patching (register, stack, memory)
+* Permanent binary patching with behavioral preservation
+* Anti-debugging mechanism analysis and neutralization
+* Kernel and CPU interaction awareness (ptrace, signals, debug registers)
+* Timing and execution-cost based detection analysis
+* Loop, syscall, and signal-based logic inspection
+* radare2-centric reversing workflows
+* Proof-based validation of bypasses
+* Low-level execution control mindset
 
 ---
 
@@ -65,6 +80,7 @@ Documentation is intentionally minimal to reflect **real-world reversing workflo
 * checksec
 * hexdump / xxd
 * diff / cmp
+* rax2
 
 ---
 
