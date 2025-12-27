@@ -31,6 +31,12 @@ reversing-labs/
 │   ├── lab_06_Hardware_Breakpoint_Detection(DR0-DR7)
 │   └── lab_07_RDTSC_Timming_Detection
 │ 
+├── lab_04_Self_Modifying_Malware
+│   ├── lab_01_runtime_decryption
+│   ├── lab_02_Self-Patching_Control_Flow(Runtime Code Rewrite)
+│   ├── lab_03_Staged_Self-Decryption_with_Opaque_Predicate_&_Debugger_Trap
+│   ├── lab_04_Payload_Discovery_&_Runtime_Analysis_Notes
+│   
 ```
 
 ---
