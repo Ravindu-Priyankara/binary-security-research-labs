@@ -14,9 +14,15 @@ shellcode-labs/
 │   ├── v1-safe
 │   ├── v2-short-but-buggy
 │   └── v3-exploit-grade
+│
 ├── Lab_02–Linux_x86_64_write()_Shellcode_Optimization
 │   ├── v1-Readable
 │   └── v2-Optimized
+│
+├── lab_03_Stack_tricks
+│   ├── lab_01_Stack-Based_String_Construction
+│   ├── lab_02_Stack_String_Synthesis_(Byte-wise_Construction)
+│   └── lab_03_Register_Hygiene_vs_Partial_Writes
 ```
 
 ---
