@@ -143,3 +143,5 @@ A fully position-independent shellcode sample that:
 * Works correctly under ASLR
 
 ---
+
+<img src="./assets/proof.png" width="500">
