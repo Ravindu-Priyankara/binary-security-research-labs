@@ -148,6 +148,12 @@ shellcode-labs/
 │   ├── lab_01_stack_based_string_construction
 │   ├── lab_02_stack_string_synthesis_bytewise
 │   └── lab_03_register_hygiene_vs_partial_writes
+│ 
+├── lab_04_Control_Flow_Primitives
+│   ├── lab_01_RIP_Relative_Addressing
+│   ├── lab_02_Call_Pop_Self_Location
+│   ├── lab_03_Jump_Logic_and_Loops
+│   └── lab_04_Position_Independent_Data_Access
 ```
 
 Purpose: **build shellcode with intent**, not copy payloads.
