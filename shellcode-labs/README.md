@@ -23,6 +23,12 @@ shellcode-labs/
 │   ├── lab_01_Stack-Based_String_Construction
 │   ├── lab_02_Stack_String_Synthesis_(Byte-wise_Construction)
 │   └── lab_03_Register_Hygiene_vs_Partial_Writes
+│ 
+├── lab_04_Control_Flow_Primitives
+│   ├── lab_01_RIP_Relative_Addressing
+│   ├── lab_02_Call_Pop_Self_Location
+│   ├── lab_03_Jump_Logic_and_Loops
+│   └── lab_04_Position_Independent_Data_Access
 ```
 
 ---
