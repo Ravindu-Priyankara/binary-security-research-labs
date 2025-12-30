@@ -121,6 +121,39 @@ The emphasis is on **understanding and neutralizing analysis resistance**, not s
 
 ---
 
+### Shellcode Engineering (`/shellcode-labs`)
+
+Low-level **x86-64 Linux shellcode development labs**, focused on:
+
+* syscall-level execution
+* size and byte-level optimization
+* stack-based data construction
+* register hygiene & side-effects
+* exploit-grade constraints (null bytes, control, stability)
+
+These labs bridge **reverse engineering → exploitation**, reinforcing how instructions behave *inside real memory*.
+
+```
+shellcode-labs/
+├── Lab_01_exit_shellcode
+│   ├── v1-safe
+│   ├── v2-short-but-buggy
+│   └── v3-exploit-grade
+│
+├── Lab_02_Linux_x86_64_write_shellcode_optimization
+│   ├── v1-readable
+│   └── v2-optimized
+│
+├── lab_03_Stack_tricks
+│   ├── lab_01_stack_based_string_construction
+│   ├── lab_02_stack_string_synthesis_bytewise
+│   └── lab_03_register_hygiene_vs_partial_writes
+```
+
+Purpose: **build shellcode with intent**, not copy payloads.
+
+---
+
 ### 🦠 Malware Analysis & Neutralization (`/malware-neutralization`)
 
 This directory represents a **dedicated malware‑analysis track**.
