@@ -82,6 +82,3 @@ mini-exploits/lab_04/
 mini-exploits/lab_05/
 
 /reverse-engineering/binary_analysis_and_exploitation_lab_02/
-
-shellcode-labs/Lab_01_exit_shellcode
-shellcode-labs/Lab_02–Linux_x86_64_write()_Shellcode_Optimization
