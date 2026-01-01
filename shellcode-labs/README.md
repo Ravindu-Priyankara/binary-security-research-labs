@@ -29,6 +29,13 @@ shellcode-labs/
 │   ├── lab_02_Call_Pop_Self_Location
 │   ├── lab_03_Jump_Logic_and_Loops
 │   └── lab_04_Position_Independent_Data_Access
+│
+├── lab_05_Shell_Spawn_Primitives
+│   ├── lab_01_execve_minimal_shellcode
+│   ├── lab_02_manual_XOR_encoding
+│   ├── lab_03_XOR_decoded_stack_string (manual)
+│   ├── lab_04_Arithmetic_String_Construction
+│   └── lab_05_Partial_String_Construction_+_Rotation
 ```
 
 ---
