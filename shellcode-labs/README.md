@@ -36,6 +36,13 @@ shellcode-labs/
 │   ├── lab_03_XOR_decoded_stack_string (manual)
 │   ├── lab_04_Arithmetic_String_Construction
 │   └── lab_05_Partial_String_Construction_+_Rotation
+│
+├── lab_06_Register_Recycling
+│   ├── lab_01_Dirty_Context_execve 
+│   ├── lab_02_Partial_Zero_Knowledge_execve 
+│   ├── lab_03_register_recycling_no_immediates 
+│   ├── lab_04_Syscall_Number_Recycling(Dirty Context)
+│   └── lab_05_Argument_Pointer_Recycling
 ```
 
 ---
