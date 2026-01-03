@@ -17,8 +17,8 @@
 
 1. before 
 
-<img src="./assets/before.png" width="500">
+<img src="./assets/before.png" width="600">
 
 2. After 
 
-<img src="./assets/after.png" width="500">
+<img src="./assets/after.png" width="600">
