@@ -20,7 +20,7 @@
 | 0x3e | 62 | 2B | e_shstrndx | Index of the section name string table |
 |------|----|----|------------|----------------------------------------|
 
-<img src="./assets/64bit_ELF_header.png" src="600">
+<img src="./assets/64bit_ELF_header.png" width="600">
 
 ## 2. `32bit` ELF header (Manual Extraction)
 
@@ -42,7 +42,7 @@
 | 0x32 | 50 | 2B | e_shstrndx | Index of the section name string table. |
 |------|----|----|------------|-----------------------------------------|
 
-
+<img src="./assets/32bit_ELF_header.png" width="600">
 
 
 ## `e_ident` identification
