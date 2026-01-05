@@ -1,4 +1,4 @@
-# ELF Header Manuall Extraction
+# ELF Header Manual Extraction
 
 ## 1. `64bit` ELF header (Manual Extraction)
 
