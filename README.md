@@ -47,6 +47,29 @@ The repo is structured by **skill domain**, not by hype.
 
 ---
 
+### ELF Internals & Binary Execution (`/elf-labs`)
+
+Purpose-driven experiments focused on **how Linux executes ELF binaries**, not how tools describe them.
+
+Focus areas include:
+
+* ELF header fields vs actual runtime behavior
+* Program headers vs sections (loader perspective)
+* Entry point manipulation & loader trust
+* PIE vs non-PIE execution differences
+* Endianness, class, and machine mismatches
+* Dynamic linker interaction (`ld-linux`)
+* Reality checks against `readelf`, `objdump`, and `GDB`
+
+These labs exist to answer one question:
+
+> *What does the kernel and loader actually trust — and what can be lied about?*
+
+This section forms the **foundation** for reversing, debugging, shellcode, and exploitation work across the repository.
+
+
+---
+
 ### GDB & Runtime Analysis (`/gdb-labs`)
 
 Hands‑on labs focused on **runtime inspection, patching, and control** using GDB.
