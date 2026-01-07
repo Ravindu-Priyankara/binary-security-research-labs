@@ -1,4 +1,4 @@
-# EI_CLASS Experiment
+# lab_02_EI_CLASS_Is_Not_Truth
 
 ## Purpose
 
