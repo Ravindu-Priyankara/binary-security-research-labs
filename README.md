@@ -41,6 +41,23 @@ Proof‑driven work.
 
 ---
 
+## Who This Repo Is For
+
+* Security researchers
+* Reverse engineers
+* Malware analysts
+* Low‑level systems engineers
+
+And:
+
+## Who This Repo Is NOT For
+
+* Cheat development
+* Illegal hacking
+* Multiplayer exploitation
+
+---
+
 ## Repository Structure
 
 The repo is structured by **skill domain**, not by hype.
