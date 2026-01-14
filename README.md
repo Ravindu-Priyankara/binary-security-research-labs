@@ -68,15 +68,19 @@ The repo is structured by **skill domain**, not by hype.
 
 Purpose-driven experiments focused on **how Linux executes ELF binaries**, not how tools describe them.
 
-Focus areas include:
-
-* ELF header fields vs actual runtime behavior
-* Program headers vs sections (loader perspective)
-* Entry point manipulation & loader trust
-* PIE vs non-PIE execution differences
-* Endianness, class, and machine mismatches
-* Dynamic linker interaction (`ld-linux`)
-* Reality checks against `readelf`, `objdump`, and `GDB`
+```
+elf-labs/
+└── Lab_01_ELF_Identity_Fields
+    ├── lab_01_ELF_Identity_Fields
+    ├── lab_02_EI_CLASS_Is_Not_Truth
+    ├── lab_03_EI_DATA_Corruption_Experiment
+    ├── lab_04_e_machine_is_not_the_cpu
+    ├── lab_05_Program_Headers_Define_Reality
+    ├── lab_06_Program_Headers_define_execution
+    ├── lab_07_e_entry_Is_Just_a_Pointer
+    ├── lab_08_Memory_Permissions_Control_Execution
+    └── lab_09_Section_Header_Identity
+```
 
 These labs exist to answer one question:
 
