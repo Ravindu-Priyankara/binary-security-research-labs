@@ -1,5 +1,18 @@
 # Low‑Level Security & Malware Analysis Journey
 
+⚠️ Scope & Intent
+
+This repository is focused on defensive security research, malware analysis,
+and reverse‑engineering education.
+
+All work is performed on self‑compiled binaries, intentionally vulnerable
+programs, or publicly available samples for learning purposes.
+
+No techniques here are intended for unauthorized access, persistence,
+or real‑world misuse.
+
+---
+
 Welcome to my personal **low‑level security research journey**.
 
 This repository documents my hands‑on work in **malware analysis, reverse engineering, binary patching, and exploit‑development fundamentals**, built from the ground up using **C, x86‑64 assembly, and GDB** on Linux.
